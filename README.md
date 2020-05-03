@@ -29,3 +29,5 @@ If you're using a router or have more than one page to prerender, edit the `rout
 npm install
 npm start
 ```
+#单独更新build文件夹
+git subtree push --prefix=build origin gh-pages
