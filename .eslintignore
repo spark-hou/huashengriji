@@ -1,0 +1,11 @@
+*.css
+*.scss
+/node_modules
+/config
+/scripts
+/public
+/build
+/dist
+serviceWorker.js
+setupTests.js
+*.test.js
