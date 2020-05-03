@@ -30,4 +30,6 @@ npm install
 npm start
 ```
 #单独更新build文件夹
+```
 git subtree push --prefix=build origin gh-pages
+```
