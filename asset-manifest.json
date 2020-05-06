@@ -20,10 +20,10 @@
   "static/media/brief-2.png": "./static/media/brief-2.bc018ba0.png",
   "static/media/brief-3.png": "./static/media/brief-3.8562c5bc.png",
   "static/media/qr.jpg": "./static/media/qr.8bc2703d.jpg",
-  "static/css/main.8dbc175d.chunk.css.map": "./static/css/main.8dbc175d.chunk.css.map",
-  "static/css/2.f4c6bad9.chunk.css.map": "./static/css/2.f4c6bad9.chunk.css.map",
   "static/css/1.6dfb1d4c.chunk.css.map": "./static/css/1.6dfb1d4c.chunk.css.map",
+  "static/css/main.8dbc175d.chunk.css.map": "./static/css/main.8dbc175d.chunk.css.map",
   "static/css/3.5a93534e.chunk.css.map": "./static/css/3.5a93534e.chunk.css.map",
+  "static/css/2.f4c6bad9.chunk.css.map": "./static/css/2.f4c6bad9.chunk.css.map",
   "index.html": "./index.html",
   "precache-manifest.820f29971b867ebdfbe3580a8ba2252e.js": "./precache-manifest.820f29971b867ebdfbe3580a8ba2252e.js",
   "service-worker.js": "./service-worker.js"
