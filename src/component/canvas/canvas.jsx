@@ -108,7 +108,7 @@ class Canvas extends Component {
   render() {
     return (
       <div className="canvas"
-        style={{'width': '100vw', 'height': '100vh'}}>
+        style={{'width': '100%', 'height': '100vh'}}>
         <canvas ref={this.canvas}
           style={{'width': '100%', 'height': '100%', 'backgroundColor': '#786DE4'}}/>
       </div>

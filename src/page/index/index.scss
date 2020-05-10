@@ -1,5 +1,5 @@
 .index {
-  font-size: 20px;
+  font-size: 18px;
   color: #61dafb;
 
   .black {
@@ -18,10 +18,10 @@
 
 
   .guide {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 10px 300px;
+    padding: 10px 10%;
     transition: all 0.3s;
 
     .titleImg {
@@ -44,12 +44,13 @@
   .firstPage {
     position: relative;
     z-index: 1;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
+    max-width: 1920px;
 
     .canvas {
       position: absolute;
-      width: 100vw;
+      width: 100%;
       height: 100vh;
       z-index: 1;
     }
@@ -62,12 +63,12 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 0 300px;
+      padding: 0 10%;
 
       .left {
         span {
           display: block;
-          font-size: 36px;
+          font-size: 28px;
           color: white;
           font-weight: bolder;
           text-align: left;
@@ -86,7 +87,7 @@
         }
 
         div {
-          width: 300px;
+          width: 10%;
           display: flex;
           align-items: center;
           justify-content: space-between;
@@ -110,12 +111,12 @@
   }
 
   .secondPage {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 300px;
+    padding: 0 10%;
 
     .left {
       text-align: left;
@@ -123,7 +124,7 @@
       font-size: 16px;
 
       .title {
-        font-size: 36px;
+        font-size: 28px;
         font-weight: bolder;
       }
 
@@ -145,12 +146,12 @@
   }
 
   .thirdPage {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 300px;
+    padding: 0 10%;
     background-color: #FBB03C;
 
     .left {
@@ -167,7 +168,7 @@
       text-align: left;
 
       .title {
-        font-size: 36px;
+        font-size: 28px;
         padding-bottom: 10px;
       }
     }
@@ -176,7 +177,7 @@
 
   .fourthPage {
     background-color: #786DE4;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     color: white;
     padding-top: 100px;
@@ -209,7 +210,7 @@
 
   .fifthPage {
     background-color: white;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     color: black;
     padding-top: 100px;
@@ -227,7 +228,7 @@
     }
 
     .content {
-      padding: 30px 300px;
+      padding: 30px 10%;
       display: flex;
       align-items: center;
       justify-content: space-between;

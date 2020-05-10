@@ -12,7 +12,9 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {};
-
+  }
+  componentWillMount() {
+    console.log('version--2020.05.10');
   }
 
   render() {
