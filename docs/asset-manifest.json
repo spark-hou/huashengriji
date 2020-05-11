@@ -1,7 +1,7 @@
 {
   "main.css": "./static/css/main.82934573.chunk.css",
-  "main.js": "./static/js/main.bd08e584.chunk.js",
-  "main.js.map": "./static/js/main.bd08e584.chunk.js.map",
+  "main.js": "./static/js/main.86bd9942.chunk.js",
+  "main.js.map": "./static/js/main.86bd9942.chunk.js.map",
   "static/css/1.31f99de0.chunk.css": "./static/css/1.31f99de0.chunk.css",
   "static/js/1.b836a812.chunk.js": "./static/js/1.b836a812.chunk.js",
   "static/js/1.b836a812.chunk.js.map": "./static/js/1.b836a812.chunk.js.map",
@@ -20,11 +20,11 @@
   "static/media/brief-2.png": "./static/media/brief-2.bc018ba0.png",
   "static/media/brief-3.png": "./static/media/brief-3.8562c5bc.png",
   "static/media/qr.jpg": "./static/media/qr.8bc2703d.jpg",
-  "static/css/1.31f99de0.chunk.css.map": "./static/css/1.31f99de0.chunk.css.map",
+  "static/css/main.82934573.chunk.css.map": "./static/css/main.82934573.chunk.css.map",
   "static/css/2.f4c6bad9.chunk.css.map": "./static/css/2.f4c6bad9.chunk.css.map",
   "static/css/3.5a93534e.chunk.css.map": "./static/css/3.5a93534e.chunk.css.map",
-  "static/css/main.82934573.chunk.css.map": "./static/css/main.82934573.chunk.css.map",
+  "static/css/1.31f99de0.chunk.css.map": "./static/css/1.31f99de0.chunk.css.map",
   "index.html": "./index.html",
-  "precache-manifest.1559b78615fdf617a089dfef1ee5caa4.js": "./precache-manifest.1559b78615fdf617a089dfef1ee5caa4.js",
+  "precache-manifest.f6493f9aba09708a7fdc1d866212e5b9.js": "./precache-manifest.f6493f9aba09708a7fdc1d866212e5b9.js",
   "service-worker.js": "./service-worker.js"
 }
