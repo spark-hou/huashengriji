@@ -13,8 +13,8 @@ class App extends Component {
     super(props);
     this.state = {};
   }
-  componentWillMount() {
-    console.log('version--2020.05.10');
+  UNSAFE_componentWillMount() {
+    console.log('version--2020.05.22');
   }
 
   render() {

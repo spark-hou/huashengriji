@@ -20,31 +20,23 @@ i, b {
   margin: 0 auto;
 }
 /*chrome--------------------------------------------start*/
-::-webkit-scrollbar {
+*::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
 /* Track */
-::-webkit-scrollbar-track {
+*::-webkit-scrollbar-track {
   background: rgb(255, 255, 255);
   border-radius: 8px;
 }
 /* Handle */
-::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
   background: rgb(201, 201, 202);
   border-radius: 8px;
 }
 /* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
+*::-webkit-scrollbar-thumb:hover {
   background: rgb(162, 162, 163);
-}
-.el-menu::-webkit-scrollbar,
-.el-table__body-wrapper::-webkit-scrollbar {
-  display: none;
-}
-.el-menu:hover::-webkit-scrollbar,
-.el-table__body-wrapper:hover::-webkit-scrollbar {
-  display: block;
 }
 /*chrome--------------------------------------------end*/
 /*IE--------------------------------------------start*/
@@ -65,14 +57,5 @@ i, b {
   scrollbar-darkshadow-color: #A2A2A3;
   /*滚动条基准颜色*/
   scrollbar-base-color: #f4f4f5;
-}
-.el-table__body-wrapper,.el-menu{
-  /*IE下隐藏*/
-  -ms-overflow-style:none;
-}
-
-.el-table__body-wrapper:hover,.el-menu:hover{
-  /*IE下显示*/
-  -ms-overflow-style:auto;
 }
 /*IE--------------------------------------------end*/
