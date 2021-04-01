@@ -1,14 +1,17 @@
 const PrerenderSPAPlugin = require('prerender-spa-plugin');
 const path = require('path');
-const paths = require('react-scripts/config/paths')
-paths.appBuild = path.join(path.dirname(paths.appBuild), 'docs')
+const paths = require('react-scripts/config/paths');
+const createCNAME = require('./createCNAME');
+paths.appBuild = path.join(path.dirname(paths.appBuild), 'docs');
+const outPut = path.join(__dirname, 'docs');
 module.exports = (config, env) => {
   if (env === 'production') {
     config.plugins = config.plugins.concat([
       new PrerenderSPAPlugin({
         routes: ['/'],
-        staticDir: path.join(__dirname, 'docs')
-      })
+        staticDir: outPut
+      }),
+      new createCNAME(outPut)
     ]);
   }
   //自定义目录符号
