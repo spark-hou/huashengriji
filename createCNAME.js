@@ -7,7 +7,7 @@ const fs = require('fs');
 const path = require('path');
 
 function copy() {
-  fs.writeFileSync(path.join(__dirname, '/docs/CNAME'), fs.readFileSync(path.join(__dirname, './CNAME')));
+  fs.writeFileSync(path.join(__dirname, `/${process.env.REACT_APP_OUT}/CNAME`), fs.readFileSync(path.join(__dirname, './CNAME')));
 }
 
 function createCNAME(options) {

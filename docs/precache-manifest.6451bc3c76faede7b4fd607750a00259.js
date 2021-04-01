@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "5ff9bec04677b28ad347",
-    "url": "./static/js/runtime~main.5ff9bec0.js"
+    "revision": "9d032cc9e6508a9473f4",
+    "url": "./static/js/runtime~main.9d032cc9.js"
   },
   {
     "revision": "d1fca6dd1811d943a763",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "./static/media/brief-3.8562c5bc.png"
   },
   {
-    "revision": "6afa2db00c323a803b4b",
-    "url": "./static/js/2.6afa2db0.chunk.js"
+    "revision": "a32966b721b04dc7d6ba",
+    "url": "./static/js/2.a32966b7.chunk.js"
   },
   {
     "revision": "bc018ba007b534f41412d11023edfcff",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "./static/css/3.59c8a000.chunk.css"
   },
   {
-    "revision": "6afa2db00c323a803b4b",
+    "revision": "a32966b721b04dc7d6ba",
     "url": "./static/css/2.40ff3dd2.chunk.css"
   },
   {
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "./static/css/1.bbb80a1a.chunk.css"
   },
   {
-    "revision": "6bb00c332bf2610f346bb0ff11e8f37b",
+    "revision": "772471c134b9dd0c6d03901bfd6472a4",
     "url": "./index.html"
   }
 ];
