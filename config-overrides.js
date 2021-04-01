@@ -1,12 +1,13 @@
 const PrerenderSPAPlugin = require('prerender-spa-plugin');
 const path = require('path');
-
+const paths = require('react-scripts/config/paths')
+paths.appBuild = path.join(path.dirname(paths.appBuild), 'docs')
 module.exports = (config, env) => {
   if (env === 'production') {
     config.plugins = config.plugins.concat([
       new PrerenderSPAPlugin({
         routes: ['/'],
-        staticDir: path.join(__dirname, 'build')
+        staticDir: path.join(__dirname, 'docs')
       })
     ]);
   }
